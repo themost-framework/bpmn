@@ -119,7 +119,7 @@ exports.testRemoveFileLogger = function(test) {
 function afterLogfileCreation(bpmnProcess, callback) {
     var winstonLogger = bpmnProcess._implementation.logger.winstonLogger;
     var logfileHasBeenCreated = false;
-    winstonLogger.on("logging", function() {
+    winstonLogger.on("log", function() {
         if (!logfileHasBeenCreated) {
             logfileHasBeenCreated = true;
             callback();

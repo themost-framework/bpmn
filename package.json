@@ -3,7 +3,7 @@
   "version": "0.3.0",
   "description": "BPMN 2.0 execution engine",
   "main": "./lib/public.js",
-  "script": {
+  "scripts": {
     "test": "node test/nodeunittraverse.js test/core"
   },
   "keywords": [
