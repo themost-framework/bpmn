@@ -1,8 +1,11 @@
 {
-  "name": "bpmn",
-  "version": "0.2.2",
+  "name": "@themost/bpmn",
+  "version": "0.3.0",
   "description": "BPMN 2.0 execution engine",
   "main": "./lib/public.js",
+  "script": {
+    "test": "node test/nodeunittraverse.js test/core"
+  },
   "keywords": [
     "bpmn",
     "workflow",
@@ -12,26 +15,24 @@
     "system integration"
   ],
   "dependencies": {
-    "sax": ">= 0.5.2",
-    "node-fs": ">= 0.1.5",
-    "jaguardb": ">= 0.1.3",
-    "winston": ">= 0.7.1",
-    "restify": ">= 2.5.1",
+    "async": "^2.6.4",
     "bunyan": ">= 0.21.3",
-    "node-uuid": ">= 1.4.0",
-    "underscore.string": "^2.3.3",
-    "async": "0.9.0"
+    "jaguardb": ">= 0.1.3",
+    "node-fs": ">= 0.1.5",
+    "node-uuid": "^1.4.8",
+    "restify": ">= 2.5.1",
+    "sax": ">= 0.5.2",
+    "underscore.string": "^3.3.6",
+    "winston": "^3.8.2"
   },
   "optionalDependencies": {
-    "mongodb": ">= 1.3.10",
-    "e2e-transaction-logger": "~0.1.0"
+    "mongodb": ">= 1.3.10"
   },
   "devDependencies": {
-    "nodeunit": ">= 0.7.4",
     "commander": ">= 2.0.0",
-    "istanbul": ">= 0.1.44"
+    "istanbul": ">= 0.1.44",
+    "nodeunit": "^0.11.3"
   },
-  "repository": "https://github.com/e2ebridge/bpmn.git",
-  "author": "support@e2ebridge.com",
+  "repository": "https://github.com/themost-framework/bpmn.git",
   "license": "MIT"
 }

@@ -1,3 +1,4 @@
+### Important note: This package is a fork of [bpmn@0.2.2](https://github.com/e2ebridge/bpmn.git) and fixes a known vulnerability issue of underscore.string@^2.3.3 and e2e-transaction-logger@~0.1.0
 bpmn
 ====
 This module executes BPMN 2.0 processes.
