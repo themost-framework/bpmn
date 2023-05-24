@@ -13,7 +13,7 @@ Installation
 ------------
 The easiest way to install it is via NPM:
 
-    npm install bpmn
+    npm i @themost/bpmn
 
 If you don't have a compiler on your platform the restify dtrace dependency won't be installed. Just ignore it.
 
