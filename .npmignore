@@ -1,0 +1,28 @@
+# nodejs
+node_modules
+
+# test
+examples
+test
+coverage.bat
+logs
+
+# docs
+docs
+
+
+# dotenv
+.env
+
+# ide
+.DS_Store
+.vscode
+.theia
+.idea
+.devcontainer
+
+# github
+.github
+
+# gitpod
+.gitpod.yml
