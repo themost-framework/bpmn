@@ -1,6 +1,6 @@
 {
   "name": "@themost/bpmn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "BPMN 2.0 execution engine",
   "main": "./lib/public.js",
   "scripts": {
